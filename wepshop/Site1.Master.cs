@@ -13,5 +13,17 @@ namespace wepshop
         {
 
         }
+
+        //User Login Button
+        protected void userLink_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("userlogin.aspx");
+        }
+
+        //Admin Login Button
+        protected void LinkButton2_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("adminlogin.aspx");
+        }
     }
 }

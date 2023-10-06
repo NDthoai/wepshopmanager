@@ -113,6 +113,8 @@
                             <asp:LinkButton class="footerlinks" ID="BookIss" runat="server" >Chát với chúng tôi</asp:LinkButton>
                             &nbsp;
                              <asp:LinkButton class="footerlinks" ID="MemberMng" runat="server"  >Dịch vụ</asp:LinkButton>
+                            &nbsp;
+                            <asp:LinkButton class="footerlinks" ID="AdminBtnLogin" runat="server"  >Admin Login</asp:LinkButton>
                 </p>
             </div>
            </div>
