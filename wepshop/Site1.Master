@@ -113,7 +113,6 @@
                             <asp:LinkButton class="footerlinks" ID="BookIss" runat="server" >Chát với chúng tôi</asp:LinkButton>
                             &nbsp;
                              <asp:LinkButton class="footerlinks" ID="MemberMng" runat="server"  >Dịch vụ</asp:LinkButton>
-                       
                 </p>
             </div>
            </div>
@@ -122,7 +121,7 @@
        <div id="SecordFooter" class="container-fluid">
            <div class="row">
                 <div class="col-xs-12 col-sm-12 col-md-12 text-center">
-               <p style="color:whitesmoke">&copy All right Reversed. Better call <a class="footerlinks" href="#" target="_blank">Thứ bạn cần đó là những thứ chúng tôi cần, ở đây chúng tôi có tất cả trừ người bạn yêu</a></p>
+               <p style="color:whitesmoke">© All right Rell <a class="footerlinks" href="#" target="_blank">Thứ bạn cần đó là những thứ chúng tôi cần, ở đây chúng tôi có tất cả trừ người bạn yêu</a>versed. Better ca</p>
            </div>
            </div>
        </div>
