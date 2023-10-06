@@ -75,7 +75,7 @@
       </asp:LinkButton>
   </li>
        <li class="nav-item active">
-   <asp:LinkButton ID="userLink" class="nav-link"  runat="server" >
+   <asp:LinkButton ID="userLink" class="nav-link"  runat="server" OnClick="userLink_Click" >
          User Login
       </asp:LinkButton>
   </li>
@@ -115,7 +115,7 @@
                             &nbsp;
                              <asp:LinkButton class="footerlinks" ID="MemberMng" runat="server"  >Dịch vụ</asp:LinkButton>
                             &nbsp;
-                            <asp:LinkButton class="footerlinks" ID="AdminBtnLogin" runat="server"  >Admin Login</asp:LinkButton>
+                            <asp:LinkButton class="footerlinks" ID="AdminBtnLogin" runat="server" OnClick="LinkButton2_Click"  >Admin Login</asp:LinkButton>
                 </p>
             </div>
            </div>
