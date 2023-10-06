@@ -3,7 +3,7 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <section>
-        <img src="imgs/mo-shop-ban-hang-online.jpg" class="img-fluid"/>
+        <img src="imgs/mo-shop-ban-hang-online.jpg" width="100%" height="300px"/>
     </section>
 
         <section>
