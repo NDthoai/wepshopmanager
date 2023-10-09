@@ -67,7 +67,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="adminQLsp.aspx" />
     <Content Include="adminlogin.aspx" />
+    <Content Include="adminQLuser.aspx" />
     <Content Include="Boostrap\css\bootstrap.min.css" />
     <Content Include="Boostrap\js\bootstrap.bundle.min.js" />
     <Content Include="Boostrap\js\code.jquery.com_jquery-3.3.1.slim.min.js" />
@@ -109,9 +111,11 @@
     <Content Include="homepage.aspx" />
     <Content Include="imgs\4de7985ec57df77c2a3e4e499dd764bb.jpg" />
     <Content Include="imgs\adm.png" />
+    <Content Include="imgs\giỏ hàng.png" />
     <Content Include="imgs\home.png" />
     <Content Include="imgs\mo-shop-ban-hang-online.jpg" />
     <Content Include="imgs\quần .png" />
+    <Content Include="imgs\sanpham.png" />
     <Content Include="imgs\tải xuống.png" />
     <Content Include="imgs\use.png" />
     <Content Include="imgs\ví da.png" />
@@ -123,16 +127,32 @@
     <Content Include="Tabledata\js\cdn.datatables.net_1.10.19_js_jquery.dataTables.min.js" />
     <Content Include="Tabledata\js\cdn.datatables.net_1.13.6_js_jquery.dataTables.min.js" />
     <Content Include="userlogin.aspx" />
+    <Content Include="userprofile.aspx" />
+    <Content Include="usesignup.aspx" />
     <Content Include="Web.config" />
     <Content Include="WebForm1.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="adminQLsp.aspx.cs">
+      <DependentUpon>adminQLsp.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="adminQLsp.aspx.designer.cs">
+      <DependentUpon>adminQLsp.aspx</DependentUpon>
+    </Compile>
     <Compile Include="adminlogin.aspx.cs">
       <DependentUpon>adminlogin.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="adminlogin.aspx.designer.cs">
       <DependentUpon>adminlogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="adminQLuser.aspx.cs">
+      <DependentUpon>adminQLuser.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="adminQLuser.aspx.designer.cs">
+      <DependentUpon>adminQLuser.aspx</DependentUpon>
     </Compile>
     <Compile Include="homepage.aspx.cs">
       <DependentUpon>homepage.aspx</DependentUpon>
@@ -155,6 +175,20 @@
     </Compile>
     <Compile Include="userlogin.aspx.designer.cs">
       <DependentUpon>userlogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="userprofile.aspx.cs">
+      <DependentUpon>userprofile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="userprofile.aspx.designer.cs">
+      <DependentUpon>userprofile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="usesignup.aspx.cs">
+      <DependentUpon>usesignup.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="usesignup.aspx.designer.cs">
+      <DependentUpon>usesignup.aspx</DependentUpon>
     </Compile>
     <Compile Include="WebForm1.aspx.cs">
       <DependentUpon>WebForm1.aspx</DependentUpon>

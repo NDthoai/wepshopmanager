@@ -101,7 +101,7 @@
            <div class="row">
                <div class="col-xs-12 col-sm-12 col-md-12 text-center">
               <p>
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                             <asp:LinkButton class="footerlinks" ID="adminLogin" runat="server" >Hỗ trợ</asp:LinkButton>
                             &nbsp;
                             <asp:LinkButton class="footerlinks" ID="AuthorMng" runat="server" >Địa chỉ</asp:LinkButton>

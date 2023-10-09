@@ -28,7 +28,7 @@
                   <div class="row">
                      <div class="col">
                         
-                        <div class="form-group mb-3">
+                    <div class="form-group mb-3">
                            <asp:TextBox class="form-control" ID="tbUserID" runat="server" placeholder="Member ID" ></asp:TextBox>
                         </div>
                         
@@ -39,7 +39,7 @@
                            <asp:Button class="btn btn-success btn-block " ID="btnLogin" runat="server" Text="Login" Width="603px"/>
                         </div>
                         <div class="form-group">
-                         <p>You are not member ? <a href="UserSignUp.aspx" id="btnSignUp">Sign Up</a></p> 
+                         <p>Bạn đã có Tài Khoản : <a href="usesignup.aspx" id="btnSignUp">Sign Up</a></p> 
                         </div>
                      </div>
 
